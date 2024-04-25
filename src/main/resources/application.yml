@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/jwt_demo
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+jwt:
+  secret: lKDDeT6AvnAcHAfVdvfMKOUPyWtfxMoB+rtjqVDdrJ/34f8W98dYtWs0Nh2xccto
+  expiration: 3600
