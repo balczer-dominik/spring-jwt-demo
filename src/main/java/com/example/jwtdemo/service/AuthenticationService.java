@@ -1,7 +1,7 @@
 package com.example.jwtdemo.service;
 
-import com.example.jwtdemo.controller.AuthenticationRequest;
 import com.example.jwtdemo.domain.User;
+import com.example.jwtdemo.dto.AuthenticationRequest;
 import com.example.jwtdemo.dto.AuthenticationResponse;
 import com.example.jwtdemo.dto.RegisterRequest;
 import com.example.jwtdemo.repository.UserRepository;

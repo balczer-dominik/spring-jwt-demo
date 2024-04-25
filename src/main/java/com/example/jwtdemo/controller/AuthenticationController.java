@@ -1,5 +1,6 @@
 package com.example.jwtdemo.controller;
 
+import com.example.jwtdemo.dto.AuthenticationRequest;
 import com.example.jwtdemo.dto.AuthenticationResponse;
 import com.example.jwtdemo.dto.RegisterRequest;
 import com.example.jwtdemo.service.AuthenticationService;

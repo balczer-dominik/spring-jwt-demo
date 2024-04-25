@@ -1,4 +1,4 @@
-package com.example.jwtdemo.controller;
+package com.example.jwtdemo.dto;
 
 import lombok.Value;
 

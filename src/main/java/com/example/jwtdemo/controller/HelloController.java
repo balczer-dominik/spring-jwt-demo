@@ -1,5 +1,6 @@
 package com.example.jwtdemo.controller;
 
+import com.example.jwtdemo.domain.Role;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,7 +16,7 @@ public class HelloController {
         return ResponseEntity.ok("Hello user from secured");
     }
 
-    @Secured("ADMIN")
+    @Secured(Role.ADMIN)
     @GetMapping("/admin")
     public ResponseEntity<String> getHelloAdmin() {
         return ResponseEntity.ok("Hello admin from secured");
